@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Basic login form - Tailwind</title>
+        <link rel="stylesheet" href="./dist/style.css" />
+    </head>
+    <body
+        class="h-screen bg-cover bg-center"
+        style="background-image: url(./assets/img/img.jpg)"
+    >
+        <header class="h-screen flex items-center justify-center">
+            <div
+                class="p-20 backdrop-blur-sm border border-slate-50 rounded-xl shadow-xl max-w-xl h-2/5"
+            >
+                <h1 class="text-center">login</h1>
+                <form action="#">
+                    <div class="grid grid-cols-1 grid-rows-2">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" />
+                        <label for="password">Password</label>
+                        <input type="password" id="password" />
+                    </div>
+
+                    <input class="" type="submit" value="Login" />
+                </form>
+            </div>
+        </header>
+    </body>
+</html>
